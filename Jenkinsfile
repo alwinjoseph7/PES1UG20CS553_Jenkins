@@ -9,13 +9,12 @@ pipeline{
     }
     stage('Test'){
       steps{
-        sh './task5'
+        sh './task55'
       }
     }
    stage('Deploy'){
       steps{
         echo 'Deploying'
-        "This will cause error"
       }
     }
   }
